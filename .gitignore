@@ -62,3 +62,4 @@ ehthumbs.db
 Thumbs.db
 
 .vscode/
+compile_commands.json

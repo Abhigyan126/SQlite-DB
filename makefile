@@ -1,5 +1,5 @@
 # Compiler and flags
-CC = gcc
+CC = clang++
 CFLAGS = -Wall -Wextra -g
 
 # Directories
@@ -11,7 +11,7 @@ SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
 OBJ_FILES = $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRC_FILES))
 
 # Executable name
-TARGET = main
+TARGET = build/main
 
 # Default target
 all: $(TARGET)
